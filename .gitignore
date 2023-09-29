@@ -1,3 +1,11 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / py[cod] == pyc, pyo, pyd
 __pycache__/
 *.py[cod]
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Other
+*.DS_Store
+Thumbs.db
