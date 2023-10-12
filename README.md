@@ -9,3 +9,8 @@
 ```
 sudo docker run -d -p 3000:3000 flask-app
 ```
+
+OR 
+
+install requirements.txt
+gunicorn -b 0.0.0.0:8080 app:app
